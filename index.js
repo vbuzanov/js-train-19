@@ -32,6 +32,7 @@ console.log("Завдання: 1 ==============================");
 console.log(Book);
 
 // Виводимо в консоль прототип Об'єкту: Book
+console.log(Object.getPrototypeOf(Book) === Object.prototype);
 console.log(Object.prototype.isPrototypeOf(Book));
 
 // Викликаємо функцію read об'єкту Book
